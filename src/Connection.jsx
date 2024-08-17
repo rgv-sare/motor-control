@@ -61,7 +61,7 @@ function Connection() {
             </div>
             <div class="flex max-[558px]:flex-col">
               <div class="bg-001 p-1 flex justify-center max-[558px]:order-2"><div class={`bg-uno-board aspect-[0.75] bg-contain bg-center bg-no-repeat min-[558px]:w-[2.25in] max-[558px]:h-[2in] min-[558px]:rotate-90 board-dim transition ${isConnected() ? "board-lit" : "board-dim"}`}/></div>
-              <div class="p-3 max-[558px]:order-1">
+              <div class="p-3 max-[558px]:order-1 flex flex-col gap-3">
                 { connDetails() ? (
                   <div>
                     <p class="text-xl font-bold">Connected to {connDetails()?.board}</p>
@@ -75,7 +75,9 @@ function Connection() {
                 ) : (
                   <>
                   <p>Connect to the Uno Board</p>
-                  <p>Click the connect button to connect to the Uno Board</p>
+                  <p class="">
+                    Make sure your Arduino board has the correct firmware installed. Download firmware here: <a class="text-blue-400 underline" href="https://github.com/rgv-sare/motor-control/blob/master/firmware/MotorControl.ino" target="_blank" rel="noreferrer">MotorControl.ino</a>
+                  </p>
                   </>
                 )}
               </div>
