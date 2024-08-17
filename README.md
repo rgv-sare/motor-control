@@ -16,4 +16,4 @@ Access this app at [motorcontrol.rgv-sare.org](https://motorcontrol.rgv-sare.org
 ## Usage
 You must use a browser that supports the Web Serial API. Currently, only Chrome and Edge support this API. You must also have a gamepad connected to your computer.
 
-Have your Arduino installed with the [SARE Motor Control firmware](). Connect your Arduino to your computer via USB, and click the "Connect" button in the app. On successful connection, the app will display the firmware version and board information.
+Have your Arduino installed with the [SARE Motor Control firmware](/firmware/MotorControl.ino). Connect your Arduino to your computer via USB, and click the "Connect" button in the app. On successful connection, the app will display the firmware version and board information.
