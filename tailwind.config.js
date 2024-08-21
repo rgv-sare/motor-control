@@ -9,8 +9,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'sare-512': "url(src/assets/logo/512.png)",
-        'uno-board': "url(src/assets/uno-board.png)"
+        'sare-512': "url(/assets/logo/512.png)",
+        'uno-board': "url(/assets/uno-board.png)"
       }
     },
   },
