@@ -17,7 +17,7 @@ function RootBlock() {
         <Modal.ModalComp/>
       </main>
 
-      <footer class="p-4 flex justify-end">v0.0.1</footer>
+      <footer id='app-version' class="p-4 flex justify-end"></footer>
     </div>
   );
 }
