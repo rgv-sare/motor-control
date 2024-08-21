@@ -1,0 +1,34 @@
+{
+  "readme_file": "README.txt",
+  "scripts":
+  {
+    "tools.js":
+    {
+      "name": "Mod Tools",
+      "summary": "Javascript module for managing all tool scripts."
+    },
+    "save-version.js":
+    {
+      "name": "Save Version",
+      "summary": "Automatically update the version numbers to all files that store them.",
+      "options":
+      {
+        "files":
+        [
+          {
+            "file": "../src/App.jsx",
+            "entries":
+            [
+              {
+                "start": "<footer id='app-version' class=\"p-4 flex justify-end\">",
+                "end": "</footer>",
+                "format": "<footer id='app-version' class=\"p-4 flex justify-end\">MotorControl Web App v%s</footer>",
+                "formatParameters": ["app-version"]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
