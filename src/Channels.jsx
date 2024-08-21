@@ -65,7 +65,7 @@ function Channels() {
 
   return (
     <div>
-      <h2 class="text-xl">Channels</h2>
+      <h2 class="text-xl">Output Channels</h2>
       <hr class="mb-2"></hr>
       <div class="flex flex-col gap-2">
         {channels.map((channel, index) => <Channel channel={channel} index={index} updateChannels={setChannels} onRemove={onRemoveChannel}/>)}

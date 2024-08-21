@@ -59,7 +59,7 @@ function Controls() {
 
   return (
     <div>
-      <h2 class="text-xl">Controls</h2>
+      <h2 class="text-xl">Gamppad Controls</h2>
       <hr class="mb-2"></hr>
       <div class="flex flex-col gap-2">
         {controls.map((control, index) => <Control channel={control} onRemove={onRemoveControl} index={index} updateControls={setControls}/>)}
